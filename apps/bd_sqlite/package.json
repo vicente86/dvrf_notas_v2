@@ -1,0 +1,22 @@
+{
+  "name": "bd_sqlite",
+  "version": "1.0.0",
+  "description": "Banco de dados sqlite",
+  "license": "ISC",
+  "author": "Daniel Vicente Rodrigues Ferreira",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

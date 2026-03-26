@@ -1,0 +1,31 @@
+{
+  "name": "dvrf_notas_v2",
+  "version": "1.0.0",
+  "description": "Aplicação web que cria, busca, atualiza e deleta anotações",
+  "main": "index.js",
+  "scripts": {
+    "dev": "run-p dev:*",
+    "dev:bd_sqlite": "cd apps/bd_sqlite && npm run dev",
+    "dev:anota_ai": "cd apps/anota_ai && npm run dev"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicente86/dvrf_notas_v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "bugs": {
+    "url": "https://github.com/vicente86/dvrf_notas_v2/issues"
+  },
+  "homepage": "https://github.com/vicente86/dvrf_notas_v2#readme",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
