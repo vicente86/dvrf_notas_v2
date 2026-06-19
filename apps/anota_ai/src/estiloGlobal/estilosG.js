@@ -199,7 +199,7 @@ export const MensagemModal = styled.div`
     @keyframes anima {
         0% {scale: 0.1;}
         10% {scale: 0.9; transform: rotate(0deg);}
-        11% {scale 1; transform: rotate(5deg);}
+        11% {scale: 1; transform: rotate(5deg);}
         12% {transform: rotate(-5deg);}
         14% {transform: rotate(0deg);}
         100% {visibility: hidden;}
